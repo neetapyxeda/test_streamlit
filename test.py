@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.write("Hello")
-for i in range(0,10):
-  st.write(i*3)
+st.write("Hello, Please enter a number and I will tell its square..")
+num = st.text_input()
+st.write("The square value is ",num*num)
