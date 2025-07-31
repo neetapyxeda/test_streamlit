@@ -1,3 +1,3 @@
-print("Hello")
+st.write("Hello")
 for i in range(0,10):
-  print(i*3)
+  st.write(i*3)
