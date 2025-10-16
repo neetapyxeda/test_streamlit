@@ -1,7 +1,7 @@
 import streamlit as st
 #####
 
-st.write("Hi, can you please enter a number and I will tell its square..")
+st.write("Hello, can you please enter a number and I will tell its square..")
 num = st.text_input("Hello, Please enter a number and I will tell its square..")
 num = int(num)
 out = num*num
